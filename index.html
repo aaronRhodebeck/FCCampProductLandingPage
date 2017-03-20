@@ -1,7 +1,7 @@
 <head>
-    <script src="https://gitcdn.link/repo/freeCodeCamp/testable-projects-fcc/master/build/bundle.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="stylesheet.css" type="text/css">
+    <script src="https://gitcdn.link/repo/freeCodeCamp/testable-projects-fcc/master/build/bundle.js"></script>
 </head>
 
 <body>
@@ -10,14 +10,16 @@
     <div class="fluid-container">
 
         <header id="header">
-            <img id="header-img" src="http://res.cloudinary.com/arhodebeck/image/upload/v1490022701/firewood-logo_q0qjka.jpg" class="header-logo">
-            <h1 id="page-title">Smoke and Flame</h1>
-            <p id="page-subtitle">Hand-crafted Artisanal Firewood</p>
-            <nav id="nav-bar">
-                <a id="about-link" href="#about-section" class="nav-link">Who we are</a>
-                <a id="video-link" href="#video-section" class="nav-link">What we do</a>
-                <a id="product-link" href="#product-section" class="nav-link">Experience our difference</a>
-            </nav>
+            <div class="flex">
+                <img id="header-img" src="http://res.cloudinary.com/arhodebeck/image/upload/v1490022701/firewood-logo_q0qjka.jpg" class="header-logo">
+                <h1 id="page-title">Smoke and Flame</h1>
+                <p id="page-subtitle">Hand-crafted Artisanal Firewood</p>
+                <nav id="nav-bar">
+                    <a id="about-link" href="#about-section" class="nav-link">Who we are</a>
+                    <a id="video-link" href="#video-section" class="nav-link">What we do</a>
+                    <a id="product-link" href="#product-section" class="nav-link">Experience our difference</a>
+                </nav>
+            </div>
         </header>
         <main>
             <section id="about-section">
@@ -37,33 +39,35 @@
             </section>
 
             <section id="product-section">
-                <h2>Firewood that exceeds</h2>
-                <div id="sycamore-product" class="product-summary">
-                    <h3 class="product-heading">Sycamore</h2>
-                        <ul id="sycamore-features" class="product-features">
-                            <li>Lovely Sweet Tea Smell</li>
-                            <li>Moderate Flame</li>
-                            <li>Good Heat</li>
-                        </ul>
-                        <button class="btn">Purchase</button>
-                </div>
-                <div id="black-thorn" class="product-summary">
-                    <h3 class="product-heading">Black Thorn</h2>
-                        <ul id="black-thorn-features" class="product-features">
-                            <li>Gorgeous Floral Aroma</li>
-                            <li>Low Smoke</li>
-                            <li>Clean Burning</li>
-                        </ul>
-                        <button class="btn">Purchase</button>
-                </div>
-                <div id="thirty-year-oak" class="product-summary">
-                    <h3 class="product-heading">30 Year Aged Oak</h2>
-                        <ul id="thirty-year-oak-features" class="product-features">
-                            <li>Long Lasting</li>
-                            <li>Perfectly Seasoned</li>
-                            <li>Steady Burning</li>
-                        </ul>
-                        <button class="btn">Purchase</button>
+                <div id="product-flexbox" class="flex">
+                    <h2>Firewood that exceeds</h2>
+                    <div id="sycamore-product" class="product-summary">
+                        <h3 class="product-heading">Sycamore</h2>
+                            <ul id="sycamore-features" class="product-features">
+                                <li>Lovely Sweet Tea Smell</li>
+                                <li>Moderate Flame</li>
+                                <li>Good Heat</li>
+                            </ul>
+                            <button class="btn">Purchase</button>
+                    </div>
+                    <div id="black-thorn" class="product-summary">
+                        <h3 class="product-heading">Black Thorn</h2>
+                            <ul id="black-thorn-features" class="product-features">
+                                <li>Gorgeous Floral Aroma</li>
+                                <li>Low Smoke</li>
+                                <li>Clean Burning</li>
+                            </ul>
+                            <button class="btn">Purchase</button>
+                    </div>
+                    <div id="thirty-year-oak" class="product-summary">
+                        <h3 class="product-heading">30 Year Aged Oak</h2>
+                            <ul id="thirty-year-oak-features" class="product-features">
+                                <li>Long Lasting</li>
+                                <li>Perfectly Seasoned</li>
+                                <li>Steady Burning</li>
+                            </ul>
+                            <button class="btn">Purchase</button>
+                    </div>
                 </div>
                 <form id="form" action="https:://www.freecodecamp.com/email-submit">
                     <input id="email" name="email" type="email" placeholder="Enter email to join our mailing list" required>
@@ -83,4 +87,5 @@
     <!-- Main page fluid container -->
 
     <!-- Copy to here for CodePen -->
+
 </body>

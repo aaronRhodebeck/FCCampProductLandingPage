@@ -3,3 +3,17 @@ header {
     top: 0;
     width: 100%;
 }
+
+@media (min-width: 600px) {
+    .mobile-stack {
+        flex-direction: row;
+    }
+}
+
+.flex {
+    display: flex;
+}
+
+.product-summary {
+    flex: 1 1 auto;
+}
