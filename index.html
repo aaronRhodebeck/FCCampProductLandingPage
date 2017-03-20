@@ -1,7 +1,7 @@
 <head>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="stylesheet.css" type="text/css">
-    <script src="https://gitcdn.link/repo/freeCodeCamp/testable-projects-fcc/master/build/bundle.js"></script>
+    <!--script src="https://gitcdn.link/repo/freeCodeCamp/testable-projects-fcc/master/build/bundle.js"></script-->
 </head>
 
 <body>
@@ -11,9 +11,11 @@
 
         <header id="header">
             <div class="flex">
-                <img id="header-img" src="http://res.cloudinary.com/arhodebeck/image/upload/v1490022701/firewood-logo_q0qjka.jpg" class="header-logo">
-                <h1 id="page-title">Smoke and Flame</h1>
-                <p id="page-subtitle">Hand-crafted Artisanal Firewood</p>
+                <img id="header-img" src="http://res.cloudinary.com/arhodebeck/image/upload/v1490038414/firewood-logo_q0qjka.jpg" class="header-logo" alt="Smoke and Flame logo">
+                <div id="title-box" class="flex stacked">
+                    <h1 id="page-title" class="">Smoke and Flame</h1>
+                    <p id="page-subtitle" class="">Hand-crafted Artisanal Firewood</p>
+                </div>
                 <nav id="nav-bar">
                     <a id="about-link" href="#about-section" class="nav-link">Who we are</a>
                     <a id="video-link" href="#video-section" class="nav-link">What we do</a>
@@ -22,15 +24,18 @@
             </div>
         </header>
         <main>
-            <section id="about-section">
-                <h2>Our Story</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin aliquet semper nibh. Nulla rutrum odio erat, scelerisque imperdiet ipsum dignissim eu. Fusce sagittis arcu non risus finibus, in consectetur orci mollis. Fusce aliquam neque
-                    sed orci elementum sodales. Aenean vel dapibus enim. Nullam accumsan finibus ante vel accumsan. Proin in nunc id nulla consectetur ultricies non id velit.</p>
-                <p>non nisi quis nunc consequat feugiat ac non odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ac tincidunt odio, vel fermentum tellus. Quisque pellentesque malesuada justo, non lacinia tellus congue ut. Vivamus in
-                    nulla vestibulum risus accumsan convallis. Aliquam imperdiet dui ut libero vehicula pulvinar. Sed pellentesque eget ligula et placerat. Sed congue, nisi non iaculis pulvinar, arcu tellus laoreet dui, non rhoncus lorem diam vel metus.</p>
-                <p>Aenean ut ullamcorper felis. Donec libero ligula, scelerisque vel mauris eu, lobortis lobortis diam. Nullam eget tellus a tellus tristique eleifend. Aliquam leo nibh, bibendum in faucibus sit amet, sollicitudin nec velit. Nulla facilisis
-                    nibh id ultrices ullamcorper. Etiam quis fermentum metus. Maecenas vitae luctus dolor. Donec lectus risus, dapibus nec nunc ut, gravida ullamcorper eros. Phasellus vestibulum imperdiet dui nec ultricies. Donec vel viverra justo. Aenean
-                    in mollis arcu, et blandit lorem. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+            <div id="marquee-container" class="marquee-container">
+                <img id="marquee-img" src="assets/marquee-picture.png" alt="Smoke and Flame" class="marquee-img">
+                <section id="about-section">
+            </div>
+            <h2>Our Story</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin aliquet semper nibh. Nulla rutrum odio erat, scelerisque imperdiet ipsum dignissim eu. Fusce sagittis arcu non risus finibus, in consectetur orci mollis. Fusce aliquam neque sed
+                orci elementum sodales. Aenean vel dapibus enim. Nullam accumsan finibus ante vel accumsan. Proin in nunc id nulla consectetur ultricies non id velit.</p>
+            <p>non nisi quis nunc consequat feugiat ac non odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ac tincidunt odio, vel fermentum tellus. Quisque pellentesque malesuada justo, non lacinia tellus congue ut. Vivamus in nulla
+                vestibulum risus accumsan convallis. Aliquam imperdiet dui ut libero vehicula pulvinar. Sed pellentesque eget ligula et placerat. Sed congue, nisi non iaculis pulvinar, arcu tellus laoreet dui, non rhoncus lorem diam vel metus.</p>
+            <p>Aenean ut ullamcorper felis. Donec libero ligula, scelerisque vel mauris eu, lobortis lobortis diam. Nullam eget tellus a tellus tristique eleifend. Aliquam leo nibh, bibendum in faucibus sit amet, sollicitudin nec velit. Nulla facilisis nibh
+                id ultrices ullamcorper. Etiam quis fermentum metus. Maecenas vitae luctus dolor. Donec lectus risus, dapibus nec nunc ut, gravida ullamcorper eros. Phasellus vestibulum imperdiet dui nec ultricies. Donec vel viverra justo. Aenean in mollis
+                arcu, et blandit lorem. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
             </section>
 
             <section id="video-section">
