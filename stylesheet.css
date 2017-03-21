@@ -22,8 +22,10 @@ h1 {
     margin-left: auto;
 }
 
-.nav-link {
+.btn {
     color: black;
+    background: hsla(48, 40%, 65%, .3);
+    margin: 5px;
 }
 
 #page-subtitle {
@@ -44,6 +46,13 @@ h1 {
 h2 {
     font-family: "Wild Spaces", monospace;
     font-size: 45px;
+    margin-left: 20px;
+}
+
+p {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+    font-size: 1.6em;
 }
 
 main {
@@ -68,6 +77,20 @@ main {
     }
 }
 
+footer {
+    flex-flow: wrap;
+}
+
+#footer-links-list {
+    margin: auto;
+    flex-flow: row;
+    list-style: none;
+}
+
+.footer-link {
+    margin: 0 5px 3px 5px;
+}
+
 .flex {
     display: flex;
 }
@@ -79,6 +102,28 @@ main {
 .stacked {
     flex-flow: column;
 }
+
+img.center {
+    display: block;
+    margin: auto;
+}
+
+
+/* Fancy divider sizing and placement */
+
+.fancy-line-container {
+    height: 60px;
+    overflow: hidden;
+}
+
+.fancy-line {
+    object-fit: cover;
+    position: relative;
+    top: -25px;
+}
+
+
+/* Top photo that page scroll over */
 
 .marquee-container {
     width: 100%;

@@ -1,5 +1,6 @@
 <head>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400&effect=distressed-wood" rel="stylesheet">
     <link rel="stylesheet" href="fonts/wild_spaces_stylesheet.css" type="text/css">
     <link rel="stylesheet" href="stylesheet.css" type="text/css">
     <!--script src="https://gitcdn.link/repo/freeCodeCamp/testable-projects-fcc/master/build/bundle.js"></script-->
@@ -13,11 +14,11 @@
     <header id="header">
         <div id="top-bar" class="flex">
             <img id="header-img" src="http://res.cloudinary.com/arhodebeck/image/upload/v1490038414/firewood-logo_q0qjka.jpg" class="header-logo" alt="Smoke and Flame logo">
-            <h1 id="page-title" class="">Smoke and Flame</h1>
+            <h1 id="page-title" class="font-effect-distressed-wood">Smoke and Flame</h1>
             <nav id="nav-bar">
-                <a id="about-link" href="#about-section" class="nav-link">Who we are</a>
-                <a id="video-link" href="#video-section" class="nav-link">What we do</a>
-                <a id="product-link" href="#product-section" class="nav-link">Experience our difference</a>
+                <a id="about-link" href="#about-section" class="nav-link btn">Who we are</a>
+                <a id="video-link" href="#video-section" class="nav-link btn">What we do</a>
+                <a id="product-link" href="#product-section" class="nav-link btn">Experience our difference</a>
             </nav>
         </div>
     </header>
@@ -27,8 +28,11 @@
         <section id="about-section">
     </div>
     <main>
+        <div class="fancy-line-container">
+            <img class="center fancy-line" src="assets/fancyline.png">
+        </div>
         <div id="content">
-            <h2>Our Story</h2>
+            <h2 class="font-effect-distressed-wood">Our Story</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin aliquet semper nibh. Nulla rutrum odio erat, scelerisque imperdiet ipsum dignissim eu. Fusce sagittis arcu non risus finibus, in consectetur orci mollis. Fusce aliquam neque sed
                 orci elementum sodales. Aenean vel dapibus enim. Nullam accumsan finibus ante vel accumsan. Proin in nunc id nulla consectetur ultricies non id velit.</p>
             <p>non nisi quis nunc consequat feugiat ac non odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ac tincidunt odio, vel fermentum tellus. Quisque pellentesque malesuada justo, non lacinia tellus congue ut. Vivamus in nulla
@@ -37,16 +41,20 @@
                 id ultrices ullamcorper. Etiam quis fermentum metus. Maecenas vitae luctus dolor. Donec lectus risus, dapibus nec nunc ut, gravida ullamcorper eros. Phasellus vestibulum imperdiet dui nec ultricies. Donec vel viverra justo. Aenean in mollis
                 arcu, et blandit lorem. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
             </section>
-
+            <div class="fancy-line-container">
+                <img class="center fancy-line" src="assets/fancyline.png">
+            </div>
             <section id="video-section">
-                <h2>What we do</h2>
+                <h2 class="font-effect-distressed-wood">What we do</h2>
                 <div class="aspect-ratio">
-                    <iframe id="video" src="https://www.youtube.com/embed/TBb9O-aW4zI" frameborder="0" allowfullscreen></iframe>
+                    <iframe id="video" src="https://www.youtube.com/embed/TBb9O-aW4zI?showinfo=0" frameborder="0" allowfullscreen></iframe>
                 </div>
             </section>
-
+            <div class="fancy-line-container">
+                <img class="center fancy-line" src="assets/fancyline.png">
+            </div>
             <section id="product-section">
-                <h2>Firewood that exceeds</h2>
+                <h2 class="font-effect-distressed-wood">Firewood that exceeds</h2>
                 <div id="product-flexbox" class="flex">
                     <div id="sycamore-product" class="product-summary">
                         <h3 class="product-heading">Sycamore</h2>
@@ -83,11 +91,11 @@
             </section>
         </div>
     </main>
-    <footer id="footer">
-        <ul>
-            <li><a href="#">Privacy</a></li>
-            <li><a href="#">Terms</a></li>
-            <li><a href="#">Contact</a></li>
+    <footer id="footer" class="flex">
+        <ul id="footer-links-list" class="flex">
+            <li class="footer-link"><a href="#">Privacy</a></li>
+            <li class="footer-link"><a href="#">Terms</a></li>
+            <li class="footer-link"><a href="#">Contact</a></li>
         </ul>
         <span>Copyright 2017, Smoke and Flame</span>
     </footer>
