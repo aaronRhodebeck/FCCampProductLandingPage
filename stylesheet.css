@@ -104,10 +104,6 @@ footer {
     display: flex;
 }
 
-.product-summary {
-    flex: 1 1 auto;
-}
-
 .stacked {
     flex-flow: column;
 }
@@ -166,4 +162,27 @@ img.center {
     height: 100%;
     left: 0;
     top: 0;
+}
+
+
+/* Product summary box styling */
+
+.product-summary {
+    margin: 5px;
+    padding: 3px;
+    text-align: center;
+    flex: 1 1 auto;
+    justify-content: space-around;
+    border: 2px dashed hsl(48, 45%, 31%);
+    font-family: "Open Sans", sans-serif;
+}
+
+h3 {
+    font-weight: bold;
+}
+
+.product-features {
+    list-style: none;
+    margin-left: -30px;
+    font-size: 1.3em;
 }
