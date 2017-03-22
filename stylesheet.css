@@ -84,10 +84,14 @@ section {
         flex-direction: column;
         margin: auto;
     }
+    .mobile-hide {
+        display: none !important;
+    }
 }
 
 footer {
     flex-flow: wrap;
+    width: 95%;
 }
 
 #footer-links-list {
@@ -170,6 +174,7 @@ img.center {
 .product-summary {
     margin: 5px;
     padding: 3px;
+    padding-bottom: 10px;
     text-align: center;
     flex: 1 1 auto;
     justify-content: space-around;
@@ -185,4 +190,17 @@ h3 {
     list-style: none;
     margin-left: -30px;
     font-size: 1.3em;
+}
+
+
+/* Mailing list sign up styling */
+
+#form {
+    text-align: center;
+}
+
+#email {
+    margin-top: 40px;
+    width: 65%;
+    font-size: 1.1em;
 }
