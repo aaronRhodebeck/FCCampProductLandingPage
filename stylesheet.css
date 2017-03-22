@@ -21,6 +21,12 @@ h1 {
 #nav-bar {
     display: flex;
     margin-left: auto;
+    font-family: "Open Sans", sans-serif;
+    text-transform: uppercase;
+}
+
+.nav-link {
+    padding-top: 8px;
 }
 
 .btn {
